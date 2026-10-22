@@ -31,30 +31,26 @@ py -3 .\kawaii_pylance.py apply
 
 配合 [Error Lens](https://github.com/usernamehw/vscode-error-lens) 使用体验更佳。
 
-## 状态与还原
+## 还原
 
 ```powershell
 py -3 .\kawaii_pylance.py status
 py -3 .\kawaii_pylance.py restore
 ```
 
-如应用时指定了 `--extension`，状态和还原也使用同一路径。
+如应用时指定了 `--extension`，状态和还原也使用同一路径。备份目录在pylance根目录 `.kawaii-pylance-backup`。
 
-备份在目标 Pylance 目录内的 `.kawaii-pylance-backup`。还原前会校验全部备份与目标文件。
+若想修改词库，先 `restore`再编辑 `patches/zh-cn.json`，然后重新应用。
 
-想修改词库时，先 `restore`，再编辑 `patches/zh-cn.json`，然后重新应用。
+## 自定义
 
-## 自定义文案
-
-`patches/zh-cn.json` 主要编辑入口：
+编辑文件`patches/zh-cn.json` 
 
 - `Diagnostic`：通用 Pyright 诊断键与手写文案。
 - `PylanceDiagnostic`：Pylance 对通用诊断的独立覆盖文案。
 - `fallbackPrefixes`：没有单独改写的主要诊断使用的语气前缀。
 
-`patches/cpp-reuse.json` 记录采用的 C++ 原句及其数组下标。
-
-导出完整通用词库检查：
+导出词库：
 
 ```powershell
 py -3 .\kawaii_pylance.py export --output .\generated.zh-cn.json
