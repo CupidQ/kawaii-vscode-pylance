@@ -1,0 +1,97 @@
+{
+  "testedDate": "2026-10-22",
+  "startedAtUTC": "2026-10-22T07:42:46.504Z",
+  "vscodeVersion": "1.142.0",
+  "language": "zh-cn",
+  "pythonExtensionVersion": "2026.10.0",
+  "pylanceVersion": "2026.4.1",
+  "copyRevision": "cpp-first",
+  "success": true,
+  "sameDiagnosticCodesLinesAndSeveritiesAsPreviousRevision": true,
+  "diagnosticCount": 11,
+  "diagnostics": [
+    {
+      "file": "demo.py",
+      "line": 3,
+      "message": "唉，真是的…模块“kawaii_missing_package”在哪里呀？人家找不到哦",
+      "source": "Pylance",
+      "severity": 0,
+      "code": "reportMissingImports"
+    },
+    {
+      "file": "demo.py",
+      "line": 5,
+      "message": "笨蛋！“kawaii_undefined_name” 不定义就想用？你以为别的女孩子也会像我一样提醒你吗？",
+      "source": "Pylance",
+      "severity": 0,
+      "code": "reportUndefinedVariable"
+    },
+    {
+      "file": "demo.py",
+      "line": 7,
+      "message": "不可以将“Literal['十七岁']”类型的值分配到声明为“int”的变量…你说你，气不气人呐\n  “Literal['十七岁']”不可分配给“int”",
+      "source": "Pylance",
+      "severity": 0,
+      "code": "reportAssignmentType"
+    },
+    {
+      "file": "demo.py",
+      "line": 14,
+      "message": "函数“add”里，“Literal['一']”类型的实参与“int”类型的形参“a”？差得远呢，完全对不上嘛\n  “Literal['一']”不可分配给“int”",
+      "source": "Pylance",
+      "severity": 0,
+      "code": "reportArgumentType"
+    },
+    {
+      "file": "demo.py",
+      "line": 15,
+      "message": "行啦行啦，参数 \"b\" 还没收到值呐！才不是担心你写不对呢",
+      "source": "Pylance",
+      "severity": 0,
+      "code": "reportCallIssue"
+    },
+    {
+      "file": "demo.py",
+      "line": 19,
+      "message": "欸…返回值类型“Literal['你好呀']”和声明的返回类型“int”这两边对不上啦，你打算让人家帮你拼起来吗\n  “Literal['你好呀']”不可分配给“int”",
+      "source": "Pylance",
+      "severity": 0,
+      "code": "reportReturnType"
+    },
+    {
+      "file": "demo.py",
+      "line": 3,
+      "message": "欸？“kawaii_missing_package” 已声明但写了却没被用到啦，它在角落里哭哦",
+      "source": "Pylance",
+      "severity": 3
+    },
+    {
+      "file": "syntax_errors.py",
+      "line": 2,
+      "message": "笨蛋！还要人家告诉你这里要写“:”吗？",
+      "source": "Pylance",
+      "severity": 0
+    },
+    {
+      "file": "syntax_errors.py",
+      "line": 5,
+      "message": "唔…是不是缺了一个右引号呀？",
+      "source": "Pylance",
+      "severity": 0
+    },
+    {
+      "file": "syntax_errors.py",
+      "line": 7,
+      "message": "笨蛋！还要人家告诉你这里要写“]”吗？",
+      "source": "Pylance",
+      "severity": 0
+    },
+    {
+      "file": "syntax_errors.py",
+      "line": 8,
+      "message": "笨蛋！还要人家告诉你这里要写分隔语句的换行符或分号吗？",
+      "source": "Pylance",
+      "severity": 0
+    }
+  ]
+}

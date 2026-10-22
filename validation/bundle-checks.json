@@ -1,0 +1,138 @@
+{
+  "testedDate": "2026-10-22",
+  "pylanceVersion": "2026.4.1",
+  "primaryDiagnosticCount": 665,
+  "customPrimaryDiagnosticCount": 269,
+  "pylanceSpecificDiagnosticCount": 2,
+  "cppReuseCount": 255,
+  "cppReuseCountsByMode": {
+    "原句沿用": 13,
+    "语义适配": 126,
+    "占位符替换": 17,
+    "句式套用": 99
+  },
+  "patchSha256": "fc19ae0debb61c547742b7346fb2e401737d0a53a006de777036fc0dfd0015d4",
+  "files": [
+    {
+      "file": "dist/browser.async.bundle.js",
+      "nodeSyntaxOK": true,
+      "installedMatchesPreviousRelease": true,
+      "outsideLocaleUnchanged": true,
+      "nonDiagnosticEntriesUnchanged": true,
+      "dictionaryDiagnosticCounts": [
+        665,
+        2
+      ],
+      "originalSha256": "4373a8aed96509ce067fddcd3164b3ae2217fe0986773b41e52af5715dfd604c",
+      "patchedSha256": "ccf5141df0c920b9a0f9d4f63d31294b43c7ba857d31cd418a1202d8aff23782",
+      "testCopyRestoredExactly": true
+    },
+    {
+      "file": "dist/browser.extension.bundle.js",
+      "nodeSyntaxOK": true,
+      "installedMatchesPreviousRelease": true,
+      "outsideLocaleUnchanged": true,
+      "nonDiagnosticEntriesUnchanged": true,
+      "dictionaryDiagnosticCounts": [
+        665,
+        2
+      ],
+      "originalSha256": "97ec253187b782e9a2e1317a35238b6e60a58c3d6e28e06f0059a05663be681f",
+      "patchedSha256": "737c7be2a234f9bc6e3c99f78879db47e94e4544ef99e722900a226263da3f27",
+      "testCopyRestoredExactly": true
+    },
+    {
+      "file": "dist/copilot-background.bundle.js",
+      "nodeSyntaxOK": true,
+      "installedMatchesPreviousRelease": true,
+      "outsideLocaleUnchanged": true,
+      "nonDiagnosticEntriesUnchanged": true,
+      "dictionaryDiagnosticCounts": [
+        2
+      ],
+      "originalSha256": "44de9967355bb89ba81f7885c0c50400a7fe1211d59b1419840766f15540162b",
+      "patchedSha256": "a914d80d8c6684cb1d1600c31965109fafe2beaa524b1465fe5b0906583e8a28",
+      "testCopyRestoredExactly": true
+    },
+    {
+      "file": "dist/copilot-pyright.bundle.js",
+      "nodeSyntaxOK": true,
+      "installedMatchesPreviousRelease": true,
+      "outsideLocaleUnchanged": true,
+      "nonDiagnosticEntriesUnchanged": true,
+      "dictionaryDiagnosticCounts": [
+        665
+      ],
+      "originalSha256": "e6ae6123b929cbc5aaf68479304178509def2fa3e22efae365a28d66fb9a22fc",
+      "patchedSha256": "934ab9d74758f2b5cbfd33ce5e8fe0e39e76753d223b46469684cacdcd98ac8a",
+      "testCopyRestoredExactly": true
+    },
+    {
+      "file": "dist/copilot-server.bundle.js",
+      "nodeSyntaxOK": true,
+      "installedMatchesPreviousRelease": true,
+      "outsideLocaleUnchanged": true,
+      "nonDiagnosticEntriesUnchanged": true,
+      "dictionaryDiagnosticCounts": [
+        2
+      ],
+      "originalSha256": "6495af42f053361129a1e1d6d508dde0992bfd3d4b78221d51cab8861b2f2e21",
+      "patchedSha256": "62411ff3a360e08d0ac4a670230640c627f4fe891ed8ab3236bb6cfd3037a406",
+      "testCopyRestoredExactly": true
+    },
+    {
+      "file": "dist/extension.bundle.js",
+      "nodeSyntaxOK": true,
+      "installedMatchesPreviousRelease": true,
+      "outsideLocaleUnchanged": true,
+      "nonDiagnosticEntriesUnchanged": true,
+      "dictionaryDiagnosticCounts": [
+        2
+      ],
+      "originalSha256": "d5ba176e343548d86cad30e56faa8aa028f9e522707929dc042ba464a709905b",
+      "patchedSha256": "fbc74f405db4b1d8f5d95a2f0c347043dcae61cb57cdafd74907e057c64bf3c6",
+      "testCopyRestoredExactly": true
+    },
+    {
+      "file": "dist/pyright.bundle.js",
+      "nodeSyntaxOK": true,
+      "installedMatchesPreviousRelease": true,
+      "outsideLocaleUnchanged": true,
+      "nonDiagnosticEntriesUnchanged": true,
+      "dictionaryDiagnosticCounts": [
+        665
+      ],
+      "originalSha256": "13734286a005110347fd058693eb006a9eb4d0b05f3dfd32cddc286115c28ca8",
+      "patchedSha256": "fbe2d5cfd2268e4b476aa3684f3a4378becf6aa0d4b1c0dcbf506f0b695e52b1",
+      "testCopyRestoredExactly": true
+    },
+    {
+      "file": "dist/server.bundle.js",
+      "nodeSyntaxOK": true,
+      "installedMatchesPreviousRelease": true,
+      "outsideLocaleUnchanged": true,
+      "nonDiagnosticEntriesUnchanged": true,
+      "dictionaryDiagnosticCounts": [
+        2
+      ],
+      "originalSha256": "b10174aa0ab2990ac1ac52cce3216135ca6f83a41d7bb4800ce385d9018e8e5c",
+      "patchedSha256": "d03ff738472e5803f9455b2f5be113d008ae9af4fec29d8faed2d3cbb02c2958",
+      "testCopyRestoredExactly": true
+    },
+    {
+      "file": "dist/typeServer.bundle.js",
+      "nodeSyntaxOK": true,
+      "installedMatchesPreviousRelease": true,
+      "outsideLocaleUnchanged": true,
+      "nonDiagnosticEntriesUnchanged": true,
+      "dictionaryDiagnosticCounts": [
+        2
+      ],
+      "originalSha256": "baf3228d463c1452409ae48e0a62faee39db45bc5b41750f332483672af614e5",
+      "patchedSha256": "a847645cde3e4c37efc4ba201dca38ed0ad2781571dcf33650158fc5fc253db7",
+      "testCopyRestoredExactly": true
+    }
+  ],
+  "success": true,
+  "testCopyRestoredExactly": true
+}

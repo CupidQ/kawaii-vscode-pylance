@@ -1,0 +1,2567 @@
+{
+  "sourceRepository": "https://github.com/Gary-0925/kawaii-vscode-cpptools",
+  "sourceFile": "src/zh_CN/messages.json",
+  "sourceURL": "https://raw.githubusercontent.com/Gary-0925/kawaii-vscode-cpptools/refs/heads/main/src/zh_CN/messages.json",
+  "retrievedDate": "2026-10-22",
+  "sourceIndexBase": 0,
+  "sourceSnapshotSha256": "c22fa423932301189fa9d5f87771ee448cb362c00314c9183ae2f827d510dd13",
+  "sourceEntryCount": 3784,
+  "countsByMode": {
+    "原句沿用": 13,
+    "语义适配": 126,
+    "占位符替换": 17,
+    "句式套用": 99
+  },
+  "entries": [
+    {
+      "section": "Diagnostic",
+      "key": "expectedColon",
+      "sourceIndex": 53,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写“:”吗？",
+      "message": "笨蛋！还要人家告诉你这里要写“:”吗？",
+      "mode": "原句沿用",
+      "note": "",
+      "reviewNumber": "009"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedCloseBracket",
+      "sourceIndex": 17,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写“]”吗？",
+      "message": "笨蛋！还要人家告诉你这里要写“]”吗？",
+      "mode": "原句沿用",
+      "note": "",
+      "reviewNumber": "011"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedCloseParen",
+      "sourceIndex": 18,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写“)”吗？",
+      "message": "笨蛋！还要人家告诉你这里要写“)”吗？",
+      "mode": "原句沿用",
+      "note": "",
+      "reviewNumber": "010"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedCloseBrace",
+      "sourceIndex": 67,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写“}”吗？",
+      "message": "笨蛋！还要人家告诉你这里要写“}”吗？",
+      "mode": "原句沿用",
+      "note": "",
+      "reviewNumber": "012"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedOpenParen",
+      "sourceIndex": 125,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写“(”？",
+      "message": "笨蛋！还要人家告诉你这里要写“(”？",
+      "mode": "原句沿用",
+      "note": "",
+      "reviewNumber": "013"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedIdentifier",
+      "sourceIndex": 40,
+      "sourceMessage": "人家一下就看出来这里应该输入标识符了呢，小~杂~鱼~",
+      "message": "人家一下就看出来这里应该输入标识符了呢，小~杂~鱼~",
+      "mode": "原句沿用",
+      "note": "",
+      "reviewNumber": "022"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedExpr",
+      "sourceIndex": 29,
+      "sourceMessage": "这里要写表达式的啦，你个笨蛋",
+      "message": "这里要写表达式的啦，你个笨蛋",
+      "mode": "原句沿用",
+      "note": "",
+      "reviewNumber": "021"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "stringUnterminated",
+      "sourceIndex": 8,
+      "sourceMessage": "唔…是不是缺了一个右引号呀？",
+      "message": "唔…是不是缺了一个右引号呀？",
+      "mode": "原句沿用",
+      "note": "",
+      "reviewNumber": "018"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "stringUnsupportedEscape",
+      "sourceIndex": 192,
+      "sourceMessage": "这个字符转义序列，人家翻遍了手册也没认出来",
+      "message": "这个字符转义序列，人家翻遍了手册也没认出来",
+      "mode": "原句沿用",
+      "note": "",
+      "reviewNumber": "093"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "unusedExpression",
+      "sourceIndex": 174,
+      "sourceMessage": "这个表达式一个字都没干成，站在那儿好看吗？",
+      "message": "这个表达式一个字都没干成，站在那儿好看吗？",
+      "mode": "原句沿用",
+      "note": "",
+      "reviewNumber": "062"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "unreachableCodeStructure",
+      "sourceIndex": 111,
+      "sourceMessage": "这行语句被挡在路那头了啦，人家都走不过去",
+      "message": "这行语句被挡在路那头了啦，人家都走不过去",
+      "mode": "原句沿用",
+      "note": "",
+      "reviewNumber": "096"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "continueOutsideLoop",
+      "sourceIndex": 115,
+      "sourceMessage": "continue 离开循环就活不了啦，乖乖把它放回循环里去",
+      "message": "continue 离开循环就活不了啦，乖乖把它放回循环里去",
+      "mode": "原句沿用",
+      "note": "",
+      "reviewNumber": "058"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "duplicateBaseClass",
+      "sourceIndex": 263,
+      "sourceMessage": "让我看看，「基类名重复」，人家看到了呀",
+      "message": "让我看看，「基类名重复」，人家看到了呀",
+      "mode": "原句沿用",
+      "note": "",
+      "reviewNumber": "080"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "symbolIsUndefined",
+      "sourceIndex": 20,
+      "sourceMessage": "笨蛋！%sq 不声明就想用？你以为别的女孩子也会像我一样提醒你吗？",
+      "message": "笨蛋！“{name}” 不定义就想用？你以为别的女孩子也会像我一样提醒你吗？",
+      "mode": "语义适配",
+      "note": "将 C/C++ 的声明改为 Python 定义；其余原句沿用。",
+      "reviewNumber": "001"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "symbolIsUnbound",
+      "sourceIndex": 114,
+      "sourceMessage": "%n 你只喊名字却不给它定义，人家怎么凭空把它变出来呀",
+      "message": "“{name}”你只喊名字却不给它绑定值，人家怎么凭空把它变出来呀",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "002"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "symbolIsPossiblyUnbound",
+      "sourceIndex": 114,
+      "sourceMessage": "%n 你只喊名字却不给它定义，人家怎么凭空把它变出来呀",
+      "message": "“{name}”可能还没绑定值呢，你只喊名字，人家怎么凭空把它变出来呀",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "003"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "importResolveFailure",
+      "sourceIndex": 3275,
+      "sourceMessage": "唉，真是的…模块 %sq 的模块文件在哪里呀？人家找不到哦",
+      "message": "唉，真是的…模块“{importName}”在哪里呀？人家找不到哦",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "004"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "importSourceResolveFailure",
+      "sourceIndex": 3275,
+      "sourceMessage": "唉，真是的…模块 %sq 的模块文件在哪里呀？人家找不到哦",
+      "message": "唉，真是的…模块“{importName}”的源文件在哪里呀？人家找不到哦",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "005"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "importSymbolUnknown",
+      "sourceIndex": 282,
+      "sourceMessage": "全局范围里翻遍了，也没有 %sq 这个名字",
+      "message": "导入里翻遍了，也没有“{name}”这个名字",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "006"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "duplicateImport",
+      "sourceIndex": 3273,
+      "sourceMessage": "小笨蛋，「%m 已导入」，人家看到了咯",
+      "message": "小笨蛋，「“{importName}” 已导入」，人家看到了咯",
+      "mode": "占位符替换",
+      "note": "",
+      "reviewNumber": "007"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "stubFileMissing",
+      "sourceIndex": 3275,
+      "sourceMessage": "唉，真是的…模块 %sq 的模块文件在哪里呀？人家找不到哦",
+      "message": "唉，真是的…“{importName}”的类型 Stub 文件在哪里呀？人家找不到哦",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "008"
+    },
+    {
+      "section": "PylanceDiagnostic",
+      "key": "importResolveNoEnvironment",
+      "sourceIndex": 3275,
+      "sourceMessage": "唉，真是的…模块 %sq 的模块文件在哪里呀？人家找不到哦",
+      "message": "唉，真是的…当前选中的解释器里，模块“{importName}”在哪里呀？人家找不到哦",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "100"
+    },
+    {
+      "section": "PylanceDiagnostic",
+      "key": "importResolveRedirect",
+      "sourceIndex": 3275,
+      "sourceMessage": "唉，真是的…模块 %sq 的模块文件在哪里呀？人家找不到哦",
+      "message": "唉，真是的…“{venv}”环境里，模块“{importName}”在哪里呀？人家找不到哦",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "101"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "breakOutsideLoop",
+      "sourceIndex": 116,
+      "sourceMessage": "break 只肯待在循环或者开关里哦，别的地方它是不认生的啦",
+      "message": "break 只肯待在循环里哦，别的地方它是不认生的啦",
+      "mode": "语义适配",
+      "note": "移除 C/C++ switch 上下文；Python 的 match 不能作为 break 目标。",
+      "reviewNumber": "057"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "returnOutsideFunction",
+      "sourceIndex": 2747,
+      "sourceMessage": "不准在函数范围之外用 co_yield 表达式，人家给你三秒钟改好咯",
+      "message": "不准在函数范围之外用 return 语句，人家给你三秒钟改好咯",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "056"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "yieldOutsideFunction",
+      "sourceIndex": 2747,
+      "sourceMessage": "不准在函数范围之外用 co_yield 表达式，人家给你三秒钟改好咯",
+      "message": "不准在函数或 lambda 范围之外用 yield 表达式，人家给你三秒钟改好咯",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "061"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "awaitNotInAsync",
+      "sourceIndex": 2747,
+      "sourceMessage": "不准在函数范围之外用 co_yield 表达式，人家给你三秒钟改好咯",
+      "message": "不准在 async 函数范围之外用 await 表达式，人家给你三秒钟改好咯",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "059"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "asyncNotInAsyncFunction",
+      "sourceIndex": 2747,
+      "sourceMessage": "不准在函数范围之外用 co_yield 表达式，人家给你三秒钟改好咯",
+      "message": "不准在 async 函数范围之外用 async，人家给你三秒钟改好咯",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "060"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "returnInAsyncGenerator",
+      "sourceIndex": 2740,
+      "sourceMessage": "在协同例程要写 \"return\" (乖乖改用 \"co_return\")？先问过人家同不同意咯",
+      "message": "在 async 生成器里要用 return 返回值？先问过人家同不同意咯",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "478"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "yieldFromOutsideAsync",
+      "sourceIndex": 2669,
+      "sourceMessage": "catch 子句那边，co_yield 表达式？人家可不答应呐",
+      "message": "async 函数里，yield from 表达式？人家可不答应呐",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "665"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "finallyBreak",
+      "sourceIndex": 2182,
+      "sourceMessage": "不可以在 finally 块中用 break 语句…行啦，接下来交给你自己呐",
+      "message": "不可以用 break 语句退出 finally 块…行啦，接下来交给你自己呐",
+      "mode": "语义适配",
+      "note": "只禁止退出 finally；不把 finally 内部嵌套循环中的合法 break/continue 一并禁止。",
+      "reviewNumber": "269"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "finallyContinue",
+      "sourceIndex": 2183,
+      "sourceMessage": "不可以在 finally 块中用 continue 语句…你说你，气不气人呐",
+      "message": "不可以用 continue 语句退出 finally 块…你说你，气不气人呐",
+      "mode": "语义适配",
+      "note": "只禁止退出 finally；不把 finally 内部嵌套循环中的合法 break/continue 一并禁止。",
+      "reviewNumber": "270"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "finallyReturn",
+      "sourceIndex": 2178,
+      "sourceMessage": "不准 finally 块内有 return 语句啦，你还想装没看见吗",
+      "message": "不可以用 return 语句退出 finally 块啦，你还想装没看见吗",
+      "mode": "语义适配",
+      "note": "只禁止退出 finally；不把 finally 内部嵌套循环中的合法 break/continue 一并禁止。",
+      "reviewNumber": "271"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "breakInExceptionGroup",
+      "sourceIndex": 2182,
+      "sourceMessage": "不可以在 finally 块中用 break 语句…行啦，接下来交给你自己呐",
+      "message": "“except*”块里不可以用 break 语句啦，别想蒙混过关呐",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "134"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "continueInExceptionGroup",
+      "sourceIndex": 2183,
+      "sourceMessage": "不可以在 finally 块中用 continue 语句…你说你，气不气人呐",
+      "message": "“except*”块里不可以用 continue 语句啦，别想蒙混过关呐",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "170"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "returnInExceptionGroup",
+      "sourceIndex": 2178,
+      "sourceMessage": "不准 finally 块内有 return 语句啦，你还想装没看见吗",
+      "message": "“except*”块里不可以用 return 语句啦，别想蒙混过关呐",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "479"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "tryWithoutExcept",
+      "sourceIndex": 2179,
+      "sourceMessage": "一个 handler 或 finally 子句呢？try 块至少这边人家左看右看都没看到哦，你要是早听人家的，哪会走到这一步",
+      "message": "except 或 finally 子句呢？try 块至少要有一个，人家左看右看都没看到哦，你要是早听人家的，哪会走到这一步",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "088"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedIndentedBlock",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写缩进块吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "014"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedFunctionName",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写“def”后面的函数名吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "023"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedClassName",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写类名吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "024"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedParamName",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写参数名吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "025"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedModuleName",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写模块名吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "027"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedImport",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写“import”吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "028"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedImportAlias",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写“as”后面的符号吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "250"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedImportSymbols",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写“import”后面的一个或多个名字吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "029"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedIn",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写“in”吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "030"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedElse",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写“else”吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "031"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedEquals",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写“=”吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "032"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedNewline",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写换行符吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "033"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedNewlineOrSemicolon",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写分隔语句的换行符或分号吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "034"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedAssignRightHandExpr",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写“=”右边的表达式吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "035"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedBinaryRightHandExpr",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写运算符右边的表达式吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "036"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedFunctionAfterAsync",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写“async”后面的函数定义吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "037"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedDecoratorNewline",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写装饰器后面的换行符吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "038"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedAfterDecorator",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写装饰器后面的函数或类声明吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "039"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedReturnExpr",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写“return”后面的表达式吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "040"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedArrow",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写“->”和后面的返回类型批注吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "240"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedAsAfterException",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写异常类型后面的“as”吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "241"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedCase",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写“case”语句吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "243"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedComplexNumberLiteral",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写模式匹配中的复数字面量吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "244"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedDecoratorName",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写装饰器名吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "246"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedDelExpr",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写“del”后面的表达式吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "247"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedInExpr",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写“in”后面的表达式吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "251"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedNameAfterAs",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写“as”后面的符号名吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "252"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedPatternExpr",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写模式表达式吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "254"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedPatternSubjectExpr",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写模式的主体表达式吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "255"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedPatternValue",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写“a.b”形式的模式值表达式吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "256"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedSliceIndex",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写索引或切片表达式吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "257"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedTypeParameterName",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写类型参数名吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "259"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedYieldExpr",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你这里要写yield 语句里的表达式吗？",
+      "mode": "句式套用",
+      "note": "沿用原项目“还要人家告诉你这里要写…”句式，保留 Python 所缺成分。",
+      "reviewNumber": "260"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedMemberName",
+      "sourceIndex": 133,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写成员名吗？",
+      "message": "笨蛋！还要人家告诉你“.”后面要写属性名吗？",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "026"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedBoolLiteral",
+      "sourceIndex": 1040,
+      "sourceMessage": "应该是“ON”、“OFF”或“DEFAULT”，这里人家说了算嘛",
+      "message": "应该是“True”或“False”，这里人家说了算嘛",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "242"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedExceptionClass",
+      "sourceIndex": 264,
+      "sourceMessage": "基类才不管用的哦，白费劲呐",
+      "message": "异常类或对象不管用的哦，白费劲呐",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "248"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedExceptionObj",
+      "sourceIndex": 1423,
+      "sourceMessage": "欸？应该是类、结构或联合类型，自己承认一下吧",
+      "message": "欸？应该是异常对象、异常类或 None，自己承认一下吧",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "249"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "expectedTypeNotString",
+      "sourceIndex": 3754,
+      "sourceMessage": "哈？参数类型不对(这里应该是 %t)啦，你写成什么了哟",
+      "message": "哈？这里应该是类型，你却写了字符串字面量啦，你写成什么了哟",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "258"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "unexpectedEof",
+      "sourceIndex": 807,
+      "sourceMessage": "嗳，默认参数表达式意外结束啦",
+      "message": "嗳，文件意外结束啦",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "019"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "unexpectedExprToken",
+      "sourceIndex": 19,
+      "sourceMessage": "就…就在编号的预期结尾后面，是不是多了点东西呀",
+      "message": "就…就在表达式的预期结尾后面，是不是多了点东西呀",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "020"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "bytesUnsupportedEscape",
+      "sourceIndex": 192,
+      "sourceMessage": "这个字符转义序列，人家翻遍了手册也没认出来",
+      "message": "这个 bytes 字符转义序列，人家翻遍了手册也没认出来",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "135"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "formatStringUnterminated",
+      "sourceIndex": 67,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写“}”吗？",
+      "message": "笨蛋！还要人家告诉你 f 字符串的表达式这里要写“}”吗？",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "091"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "formatStringBrace",
+      "sourceIndex": 655,
+      "sourceMessage": "杂鱼~你的声明中不允许使用 %sq 修饰符",
+      "message": "杂鱼~f 字符串里不允许单独写“}”，要写普通右大括号就用“}}”啦",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "092"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "argAssignment",
+      "sourceIndex": 167,
+      "sourceMessage": "%t1 类型的实参与 %t2 类型的形参？差得远呢，完全对不上嘛",
+      "message": "“{argType}” 类型的实参与 “{paramType}” 类型的形参？差得远呢，完全对不上嘛",
+      "mode": "占位符替换",
+      "note": "",
+      "reviewNumber": "041"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "argAssignmentFunction",
+      "sourceIndex": 167,
+      "sourceMessage": "%t1 类型的实参与 %t2 类型的形参？差得远呢，完全对不上嘛",
+      "message": "函数“{functionName}”里，“{argType}”类型的实参与“{paramType}”类型的形参？差得远呢，完全对不上嘛",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "042"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "argAssignmentParam",
+      "sourceIndex": 167,
+      "sourceMessage": "%t1 类型的实参与 %t2 类型的形参？差得远呢，完全对不上嘛",
+      "message": "“{argType}”类型的实参与“{paramType}”类型的形参“{paramName}”？差得远呢，完全对不上嘛",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "043"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "argAssignmentParamFunction",
+      "sourceIndex": 167,
+      "sourceMessage": "%t1 类型的实参与 %t2 类型的形参？差得远呢，完全对不上嘛",
+      "message": "函数“{functionName}”里，“{argType}”类型的实参与“{paramType}”类型的形参“{paramName}”？差得远呢，完全对不上嘛",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "044"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "paramAssignmentMismatch",
+      "sourceIndex": 167,
+      "sourceMessage": "%t1 类型的实参与 %t2 类型的形参？差得远呢，完全对不上嘛",
+      "message": "“{sourceType}” 类型的实参与 “{paramType}” 类型的形参？差得远呢，完全对不上嘛",
+      "mode": "占位符替换",
+      "note": "",
+      "reviewNumber": "424"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "typeAssignmentMismatch",
+      "sourceIndex": 513,
+      "sourceMessage": "不可以将 %t1 类型的值分配到 %t2 类型的实体…你说你，气不气人呐",
+      "message": "不可以将“{sourceType}”类型的值分配到声明为“{destType}”的变量…你说你，气不气人呐",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "053"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "typeAssignmentMismatchWildcard",
+      "sourceIndex": 513,
+      "sourceMessage": "不可以将 %t1 类型的值分配到 %t2 类型的实体…你说你，气不气人呐",
+      "message": "导入的“{name}”是“{sourceType}”类型，不可以分配到声明为“{destType}”的变量…你说你，气不气人呐",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "543"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "returnTypeMismatch",
+      "sourceIndex": 120,
+      "sourceMessage": "欸…返回值类型和函数类型这两边对不上啦，你打算让人家帮你拼起来吗",
+      "message": "欸…返回值类型“{exprType}”和声明的返回类型“{returnType}”这两边对不上啦，你打算让人家帮你拼起来吗",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "054"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "returnMissing",
+      "sourceIndex": 117,
+      "sourceMessage": "非 void 的 %n 是要吐出返回值来的啦，你让人家空着手收？",
+      "message": "返回类型为“{returnType}”的函数是要在每条代码路径上吐出返回值来的啦，你让人家空着手收？",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "055"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "argMissingForParam",
+      "sourceIndex": 165,
+      "sourceMessage": "行啦行啦，函数调用中的参数少得可怜呐！才不是担心你编译不过呢",
+      "message": "行啦行啦，参数 {name} 还没收到值呐！才不是担心你写不对呢",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "045"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "argMissingForParams",
+      "sourceIndex": 165,
+      "sourceMessage": "行啦行啦，函数调用中的参数少得可怜呐！才不是担心你编译不过呢",
+      "message": "行啦行啦，参数 {names} 还没收到值呐！才不是担心你写不对呢",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "046"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "argMorePositionalExpectedCount",
+      "sourceIndex": 442,
+      "sourceMessage": "小杂鱼~%nf 的参数太少了啦",
+      "message": "小杂鱼~位置参数太少了啦，还缺 {expected} 个呢",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "049"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "argMorePositionalExpectedOne",
+      "sourceIndex": 442,
+      "sourceMessage": "小杂鱼~%nf 的参数太少了啦",
+      "message": "小杂鱼~位置参数太少了啦，还缺 1 个呢",
+      "mode": "语义适配",
+      "note": "英文是 Expected 1 more，保留精确的 1 个，不再写成“至少 1 个”。",
+      "reviewNumber": "050"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "argPositionalExpectedCount",
+      "sourceIndex": 1941,
+      "sourceMessage": "哈、哈啊？访问器函数的参数多得离谱了啦，个数要给人家对上哟",
+      "message": "位置参数的个数不对啦，应该是 {expected} 个，个数要给人家对上哟",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "047"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "argPositionalExpectedOne",
+      "sourceIndex": 1941,
+      "sourceMessage": "哈、哈啊？访问器函数的参数多得离谱了啦，个数要给人家对上哟",
+      "message": "位置参数的个数不对啦，应该是 1 个，个数要给人家对上哟",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "048"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "argPositional",
+      "sourceIndex": 1266,
+      "sourceMessage": "位置参数这边不、可以位于特性中的命名参数以后哦，你以为谁都像你这么随手写咯",
+      "message": "这里要的是位置参数哦，你以为谁都像你这么随手写咯",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "113"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "paramNameMissing",
+      "sourceIndex": 1267,
+      "sourceMessage": "名为 %sq2 的参数？特性 %sq1 那儿可没有哦，人家替你确认过了呐",
+      "message": "名为“{name}”的参数？这儿可没有哦，人家替你确认过了呐",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "425"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "paramAlreadyAssigned",
+      "sourceIndex": 148,
+      "sourceMessage": "欸…情况是这样：%n 早就初始化过了",
+      "message": "欸…情况是这样：参数“{name}”早就赋过值了",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "422"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "duplicateParam",
+      "sourceIndex": 100,
+      "sourceMessage": "参数名重样啦，两个一模一样的名字，人家喊谁好？",
+      "message": "参数名“{name}”重样啦，两个一模一样的名字，人家喊谁好？",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "079"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "nonDefaultAfterDefault",
+      "sourceIndex": 306,
+      "sourceMessage": "默认实参要待在形参列表的最后哦，你插在中间算怎么回事",
+      "message": "没有默认值的位置参数要排在有默认值的位置参数前面哦，你插在后面算怎么回事",
+      "mode": "语义适配",
+      "note": "保留 Python 位置参数的默认值顺序约束，不推广到可自由排列默认值的仅关键字参数。",
+      "reviewNumber": "380"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "positionArgAfterNamedArg",
+      "sourceIndex": 1266,
+      "sourceMessage": "位置参数这边不、可以位于特性中的命名参数以后哦，你以为谁都像你这么随手写咯",
+      "message": "位置参数这边不、可以位于关键字参数以后哦，你以为谁都像你这么随手写咯",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "444"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "positionArgAfterUnpackedDictArg",
+      "sourceIndex": 1266,
+      "sourceMessage": "位置参数这边不、可以位于特性中的命名参数以后哦，你以为谁都像你这么随手写咯",
+      "message": "位置参数这边不、可以位于关键字参数解包以后哦，你以为谁都像你这么随手写咯",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "445"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "paramAfterKwargsParam",
+      "sourceIndex": 2191,
+      "sourceMessage": "欸？%[C++/CLI] 参数数组一定要是最后一个参数啦，这点常识还要人家教嘛",
+      "message": "欸？“**”参数一定要是最后一个参数啦，这点常识还要人家教嘛",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "421"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "classPatternPositionalArgCount",
+      "sourceIndex": 2154,
+      "sourceMessage": "哈、哈啊？%nf 的参数多得离谱了啦，你个呆子，个数要给人家对上嘛。别、别误会了，人家才不是特意帮你检查的！",
+      "message": "哈、哈啊？类“{type}”的位置模式太多了啦，应该是 {expected} 个，你却给了 {received} 个，个数要给人家对上嘛",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "148"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "duplicateArgsParam",
+      "sourceIndex": 3267,
+      "sourceMessage": "不可以声明一个以上的模块，人家可不讲情面呢",
+      "message": "不可以写一个以上的“*”参数，人家可不讲情面呢",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "213"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "duplicateKwargsParam",
+      "sourceIndex": 3267,
+      "sourceMessage": "不可以声明一个以上的模块，人家可不讲情面呢",
+      "message": "不可以写一个以上的“**”参数，人家可不讲情面呢",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "219"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "duplicateKeywordOnly",
+      "sourceIndex": 3267,
+      "sourceMessage": "不可以声明一个以上的模块，人家可不讲情面呢",
+      "message": "不可以写一个以上的“*”分隔符，人家可不讲情面呢",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "218"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "duplicatePositionOnly",
+      "sourceIndex": 3267,
+      "sourceMessage": "不可以声明一个以上的模块，人家可不讲情面呢",
+      "message": "不可以写一个以上的“/”分隔符，人家可不讲情面呢",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "220"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "duplicateCatchAll",
+      "sourceIndex": 3267,
+      "sourceMessage": "不可以声明一个以上的模块，人家可不讲情面呢",
+      "message": "不可以写一个以上的兜底 except 子句，人家可不讲情面呢",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "215"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "duplicateStarPattern",
+      "sourceIndex": 3267,
+      "sourceMessage": "不可以声明一个以上的模块，人家可不讲情面呢",
+      "message": "不可以写一个以上的序列里的“*”模式，人家可不讲情面呢",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "221"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "duplicateStarStarPattern",
+      "sourceIndex": 3267,
+      "sourceMessage": "不可以声明一个以上的模块，人家可不讲情面呢",
+      "message": "不可以写一个以上的“**”条目，人家可不讲情面呢",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "222"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "duplicateUnpack",
+      "sourceIndex": 3267,
+      "sourceMessage": "不可以声明一个以上的模块，人家可不讲情面呢",
+      "message": "不可以写一个以上的list 里的解包操作，人家可不讲情面呢",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "223"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "duplicateGenericAndProtocolBase",
+      "sourceIndex": 3267,
+      "sourceMessage": "不可以声明一个以上的模块，人家可不讲情面呢",
+      "message": "不可以写一个以上的Generic[...] 或 Protocol[...] 基类，人家可不讲情面呢",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "217"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "duplicateEnumMember",
+      "sourceIndex": 101,
+      "sourceMessage": "%sq 在这个范围里早就登记过了啦，同名的人家可不再收",
+      "message": "“{name}”在这个 Enum 里早就登记过了啦，同名的人家可不再收",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "216"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "duplicateCapturePatternTarget",
+      "sourceIndex": 100,
+      "sourceMessage": "参数名重样啦，两个一模一样的名字，人家喊谁好？",
+      "message": "捕获目标“{name}”在同一模式里写了好几遍啦，名字一模一样，人家喊谁好？",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "214"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "unaccessedVariable",
+      "sourceIndex": 177,
+      "sourceMessage": "欸？%n 已声明但写了却没被用到啦，它在角落里哭哦",
+      "message": "欸？变量“{name}” 已声明但写了却没被用到啦，它在角落里哭哦",
+      "mode": "占位符替换",
+      "note": "",
+      "reviewNumber": "066"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "unaccessedFunction",
+      "sourceIndex": 177,
+      "sourceMessage": "欸？%n 已声明但写了却没被用到啦，它在角落里哭哦",
+      "message": "欸？函数“{name}” 已声明但写了却没被用到啦，它在角落里哭哦",
+      "mode": "占位符替换",
+      "note": "",
+      "reviewNumber": "067"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "unaccessedClass",
+      "sourceIndex": 177,
+      "sourceMessage": "欸？%n 已声明但写了却没被用到啦，它在角落里哭哦",
+      "message": "欸？类“{name}” 已声明但写了却没被用到啦，它在角落里哭哦",
+      "mode": "占位符替换",
+      "note": "",
+      "reviewNumber": "068"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "unaccessedSymbol",
+      "sourceIndex": 177,
+      "sourceMessage": "欸？%n 已声明但写了却没被用到啦，它在角落里哭哦",
+      "message": "欸？“{name}” 已声明但写了却没被用到啦，它在角落里哭哦",
+      "mode": "占位符替换",
+      "note": "",
+      "reviewNumber": "069"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "unaccessedImport",
+      "sourceIndex": 177,
+      "sourceMessage": "欸？%n 已声明但写了却没被用到啦，它在角落里哭哦",
+      "message": "欸？“{name}”已导入但写了却没被用到啦，它在角落里哭哦",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "065"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "unusedCallResult",
+      "sourceIndex": 1650,
+      "sourceMessage": "没被用到调用结果，人家可不讲情面哦。别、别误会了，人家才不是特意帮你检查的！",
+      "message": "“{type}”类型的调用结果没被用到，人家可不讲情面哦。如果是故意的就交给“_”嘛。别、别误会了，人家才不是特意帮你检查的！",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "064"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "unusedCoroutine",
+      "sourceIndex": 1650,
+      "sourceMessage": "没被用到调用结果，人家可不讲情面哦。别、别误会了，人家才不是特意帮你检查的！",
+      "message": "async 函数的调用结果没被用到，人家可不讲情面哦。用 await 或把结果交给变量嘛。别、别误会了，人家才不是特意帮你检查的！",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "063"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "unreachableCodeType",
+      "sourceIndex": 111,
+      "sourceMessage": "这行语句被挡在路那头了啦，人家都走不过去",
+      "message": "类型分析确认这段代码被挡在路那头了啦，人家都走不过去",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "097"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "unreachableCodeCondition",
+      "sourceIndex": 3243,
+      "sourceMessage": "情况是这样：原子约束的计算结果为 false。这种程度就慌了？杂鱼！",
+      "message": "情况是这样：条件静态计算结果为 False，这段代码就不分析啦。这种程度就慌了？杂鱼！",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "649"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "unreachableExcept",
+      "sourceIndex": 111,
+      "sourceMessage": "这行语句被挡在路那头了啦，人家都走不过去",
+      "message": "异常早就处理过了，这个 except 被挡在路那头了啦，人家都走不过去",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "650"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "memberAccess",
+      "sourceIndex": 330,
+      "sourceMessage": "%nfd 不可访问，你要干嘛",
+      "message": "类型“{type}”的属性“{name}”不可访问，你要干嘛",
+      "mode": "语义适配",
+      "note": "只说不可访问，不擅自断言属性不存在。",
+      "reviewNumber": "340"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "methodNotDefined",
+      "sourceIndex": 20,
+      "sourceMessage": "笨蛋！%sq 不声明就想用？你以为别的女孩子也会像我一样提醒你吗？",
+      "message": "笨蛋！“{name}”方法不定义就想用？你以为别的女孩子也会像我一样提醒你吗？",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "346"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "methodNotDefinedOnType",
+      "sourceIndex": 135,
+      "sourceMessage": "杂鱼~%n 都没有成员 %sq 的啦",
+      "message": "杂鱼~类型“{type}”都没有“{name}”方法的啦",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "347"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "abstractMethodInvocation",
+      "sourceIndex": 322,
+      "sourceMessage": "哼，笨蛋，不允许使用抽象类类型 %t 的对象:",
+      "message": "哼，笨蛋，抽象方法“{method}”还没实现，不允许调用啦",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "102"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "instantiateAbstract",
+      "sourceIndex": 322,
+      "sourceMessage": "哼，笨蛋，不允许使用抽象类类型 %t 的对象:",
+      "message": "哼，笨蛋，不允许实例化抽象类“{type}”啦",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "311"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "typeNotIntantiable",
+      "sourceIndex": 485,
+      "sourceMessage": "%nf 才不是可实例化的实体…行啦，接下来交给你自己呐",
+      "message": "“{type}”才不是可实例化的类型…行啦，接下来交给你自己呐",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "073"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "callableNotInstantiable",
+      "sourceIndex": 485,
+      "sourceMessage": "%nf 才不是可实例化的实体…行啦，接下来交给你自己呐",
+      "message": "“{type}”才不是可实例化的类型…行啦，接下来交给你自己呐",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "138"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "literalNotCallable",
+      "sourceIndex": 485,
+      "sourceMessage": "%nf 才不是可实例化的实体…行啦，接下来交给你自己呐",
+      "message": "Literal 才不是可实例化的类型…行啦，接下来交给你自己呐",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "335"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "collectionAliasInstantiation",
+      "sourceIndex": 485,
+      "sourceMessage": "%nf 才不是可实例化的实体…行啦，接下来交给你自己呐",
+      "message": "“{type}”才不是可实例化的类型，改用“{alias}”嘛…行啦，接下来交给你自己呐",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "158"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "baseClassFinal",
+      "sourceIndex": 1904,
+      "sourceMessage": "不可以将“final”类类型用作基类，这一点没得商量哦",
+      "message": "不可以将标记为 final 的“{type}”用作基类，这一点没得商量哦",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "125"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "enumClassOverride",
+      "sourceIndex": 1904,
+      "sourceMessage": "不可以将“final”类类型用作基类，这一点没得商量哦",
+      "message": "不可以将 final 的 Enum 类“{name}”用作基类，这一点没得商量哦",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "227"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "finalMethodOverride",
+      "sourceIndex": 1850,
+      "sourceMessage": "哈？重写“final”%nd 这种事，人家现在做不到哦",
+      "message": "哈？重写类“{className}”中标记为 final 的方法“{name}”这种事，人家现在做不到哦",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "264"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "finalNonMethod",
+      "sourceIndex": 2614,
+      "sourceMessage": "不可以用 \"final\" 修饰符声明非虚函数，人家可不讲情面呢",
+      "message": "不可以用 @final 修饰器标记函数“{name}”，它不是方法，人家可不讲情面呢",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "265"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "finalReassigned",
+      "sourceIndex": 46,
+      "sourceMessage": "%no 早就被预定义过了啦，重定义这种小把戏，人家看都不看",
+      "message": "“{name}”早就声明为 Final 了啦，重新赋值这种小把戏，人家看都不看",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "082"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "constantRedefinition",
+      "sourceIndex": 46,
+      "sourceMessage": "%no 早就被预定义过了啦，重定义这种小把戏，人家看都不看",
+      "message": "“{name}”因为名字全大写被视作常量啦，重定义这种小把戏，人家看都不看",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "081"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "finalUnassigned",
+      "sourceIndex": 257,
+      "sourceMessage": "常量 %n 少了初始值设定项，人家也帮不了你呀",
+      "message": "Final 变量“{name}”少了初始值，人家也帮不了你呀",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "083"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "finalClassIsAbstract",
+      "sourceIndex": 322,
+      "sourceMessage": "哼，笨蛋，不允许使用抽象类类型 %t 的对象:",
+      "message": "哼，笨蛋，类“{type}”都标记为 final 了，还得实现所有抽象成员啦",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "261"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "baseClassCircular",
+      "sourceIndex": 3272,
+      "sourceMessage": "唔…模块？才不可以和自身有接口依赖关系啦，这一点没得商量咯",
+      "message": "唔…类？才不可以继承它自己啦，这一点没得商量咯",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "086"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "classDefinitionCycle",
+      "sourceIndex": 2446,
+      "sourceMessage": "欸…情况是这样：构造函数直接或间接委托给其自身",
+      "message": "欸…情况是这样：类“{name}”的定义直接或间接依赖于它自己",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "143"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "recursiveDefinition",
+      "sourceIndex": 2421,
+      "sourceMessage": "哼！%n 的初始值设定项的实例化依赖于其自身的值，这种小问题自己注意一下嘛",
+      "message": "哼！“{name}”的类型推导依赖于它自己，人家没办法确定类型啦，这种小问题自己注意一下嘛",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "087"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "typeAliasIsRecursiveDirect",
+      "sourceIndex": 1586,
+      "sourceMessage": "用 auto 类型说明符声明的变量这边不可以冒出来在其自身的初始值设定项中哦，你以为谁都像你这么随手写啦",
+      "message": "类型别名“{name}”这边不可以在它自己的定义中出现哦，你以为谁都像你这么随手写啦",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "521"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "constructorParametersMismatch",
+      "sourceIndex": 147,
+      "sourceMessage": "声明与 %nfd？差得远呢，完全对不上嘛。记住哦，这可是人家的独家提醒！",
+      "message": "类“{classType}”中 __new__ 和 __init__ 的签名？差得远呢，完全对不上嘛。记住哦，这可是人家的独家提醒！",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "167"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "incompatibleMethodOverride",
+      "sourceIndex": 147,
+      "sourceMessage": "声明与 %nfd？差得远呢，完全对不上嘛。记住哦，这可是人家的独家提醒！",
+      "message": "方法“{name}”对类“{className}”中同名方法的重写？差得远呢，类型完全对不上嘛。记住哦，这可是人家的独家提醒！",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "302"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "baseClassMethodTypeIncompatible",
+      "sourceIndex": 147,
+      "sourceMessage": "声明与 %nfd？差得远呢，完全对不上嘛。记住哦，这可是人家的独家提醒！",
+      "message": "类“{classType}”的基类对“{name}”方法的定义？差得远呢，类型完全对不上嘛",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "128"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "baseClassVariableTypeIncompatible",
+      "sourceIndex": 147,
+      "sourceMessage": "声明与 %nfd？差得远呢，完全对不上嘛。记住哦，这可是人家的独家提醒！",
+      "message": "类“{classType}”的基类对“{name}”变量的定义？差得远呢，类型完全对不上嘛",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "130"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "baseClassIncompatible",
+      "sourceIndex": 42,
+      "sourceMessage": "额…操作数类型不兼容哦(%t1 和 %t2)",
+      "message": "额…“{type}”的基类类型互不兼容哦",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "126"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "uninitializedInstanceVariable",
+      "sourceIndex": 809,
+      "sourceMessage": "还没初始化的 %n 里头有常量成员，这里人家说了算嘛",
+      "message": "哎呀，实例变量“{name}”还没在类体或 __init__ 方法中初始化呢，人家也帮不了你呀",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "620"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "uninitializedAbstractVariables",
+      "sourceIndex": 517,
+      "sourceMessage": "对象里头有压根没初始化的常量或引用成员，这里人家说了算呢",
+      "message": "final 类“{classType}”里头有从抽象基类继承、却压根没初始化的变量，这里人家说了算呢",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "619"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "initMustReturnNone",
+      "sourceIndex": 278,
+      "sourceMessage": "等等！构造函数或析构函数要是返回值，人家可要先炸给你看啦",
+      "message": "等等！“__init__”的返回类型要是写成 None 以外的类型，人家可要先炸给你看啦",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "305"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "nonLocalInModule",
+      "sourceIndex": 394,
+      "sourceMessage": "不准引用封闭函数的局部变量，这里人家说了算哦！自己乖乖改掉，改完再来见人家…",
+      "message": "不准在模块级用 nonlocal 声明，这里人家说了算哦！自己乖乖改掉，改完再来见人家…",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "381"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "futureImportLocationNotAllowed",
+      "sourceIndex": 3263,
+      "sourceMessage": "全局模块片段声明这边的要求是位于任何其他声明以前，别想蒙混过关嘛",
+      "message": "from __future__ 导入这边的要求是位于文件开头，别想蒙混过关嘛",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "094"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "typeArgsTooFew",
+      "sourceIndex": 442,
+      "sourceMessage": "小杂鱼~%nf 的参数太少了啦",
+      "message": "小杂鱼~“{name}”的类型参数太少了啦，应为 {expected}，但收到 {received}",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "541"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "typeArgsTooMany",
+      "sourceIndex": 443,
+      "sourceMessage": "小杂鱼~%nf 的参数太多了啦",
+      "message": "小杂鱼~“{name}”的类型参数太多了啦，应为 {expected}，但收到 {received}",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "542"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "typeArgsMismatchOne",
+      "sourceIndex": 1941,
+      "sourceMessage": "哈、哈啊？访问器函数的参数多得离谱了啦，个数要给人家对上哟",
+      "message": "类型参数的个数不对啦，应该是 1 个，但收到 {received}，个数要给人家对上哟",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "538"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "genericTypeArgUnique",
+      "sourceIndex": 100,
+      "sourceMessage": "参数名重样啦，两个一模一样的名字，人家喊谁好？",
+      "message": "Generic 的类型参数重样啦，一模一样的名字，人家喊谁好？",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "296"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "genericTypeArgTypeVar",
+      "sourceIndex": 2107,
+      "sourceMessage": "泛型只能有类型参数，下次先问过人家哦",
+      "message": "Generic 的类型参数只能是类型变量，下次先问过人家哦",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "295"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "genericTypeArgMissing",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你 Generic 后面至少要写一个类型参数吗？",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "294"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "typeArgsMissingForAlias",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你泛型类型别名“{name}”需要类型参数吗？",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "539"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "typeArgsMissingForClass",
+      "sourceIndex": 79,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写类型说明符吗？",
+      "message": "笨蛋！还要人家告诉你泛型类“{name}”需要类型参数吗？",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "540"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "typeExpectedClass",
+      "sourceIndex": 1423,
+      "sourceMessage": "欸？应该是类、结构或联合类型，自己承认一下吧",
+      "message": "欸？应该是类类型，可你给的是“{type}”，自己承认一下吧",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "547"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "tupleIndexOutOfRange",
+      "sourceIndex": 175,
+      "sourceMessage": "下标把范围撑爆了啦，自己去裁一点啦",
+      "message": "“{type}”的索引 {index} 把范围撑爆了啦，自己去裁一点啦",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "078"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "typeNotSupportBinaryOperator",
+      "sourceIndex": 349,
+      "sourceMessage": "和这些操作数匹配的 %sq 运算符？没有哦，一片空白啦",
+      "message": "和“{leftType}”“{rightType}”匹配的“{operator}”运算符？没有哦，一片空白啦",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "074"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "typeNotSupportUnaryOperator",
+      "sourceIndex": 349,
+      "sourceMessage": "和这些操作数匹配的 %sq 运算符？没有哦，一片空白啦",
+      "message": "和“{type}”匹配的“{operator}”一元运算符？没有哦，一片空白啦",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "075"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "typeNotSupportBinaryOperatorBidirectional",
+      "sourceIndex": 349,
+      "sourceMessage": "和这些操作数匹配的 %sq 运算符？没有哦，一片空白啦",
+      "message": "预期类型为“{expectedType}”时，和“{leftType}”“{rightType}”匹配的“{operator}”运算符？没有哦，一片空白啦",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "553"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "typeNotSupportUnaryOperatorBidirectional",
+      "sourceIndex": 349,
+      "sourceMessage": "和这些操作数匹配的 %sq 运算符？没有哦，一片空白啦",
+      "message": "预期类型为“{expectedType}”时，和“{type}”匹配的“{operator}”一元运算符？没有哦，一片空白啦",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "554"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "annotatedMetadataInconsistent",
+      "sourceIndex": 42,
+      "sourceMessage": "额…操作数类型不兼容哦(%t1 和 %t2)",
+      "message": "额…元数据类型“{metadataType}”与类型“{type}”不兼容哦",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "103"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "typeIsReturnType",
+      "sourceIndex": 42,
+      "sourceMessage": "额…操作数类型不兼容哦(%t1 和 %t2)",
+      "message": "额…TypeIs 的返回类型“{returnType}”与值参数类型“{type}”不一致哦",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "551"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "defaultValueNotAllowed",
+      "sourceIndex": 1914,
+      "sourceMessage": "喂——不许！参数包不可以里头有默认值呐",
+      "message": "喂——不许！“*”或“**”参数不可以带有默认值呐",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "192"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "namedTupleEmptyName",
+      "sourceIndex": 3269,
+      "sourceMessage": "一定要用非空名称声明模块，别想蒙混过关啦",
+      "message": "一定要用非空名称声明 NamedTuple，别想蒙混过关啦",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "358"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "typedDictEmptyName",
+      "sourceIndex": 3269,
+      "sourceMessage": "一定要用非空名称声明模块，别想蒙混过关啦",
+      "message": "TypedDict 里的名称一定要非空，别想蒙混过关啦",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "599"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "namedTupleNameUnique",
+      "sourceIndex": 100,
+      "sourceMessage": "参数名重样啦，两个一模一样的名字，人家喊谁好？",
+      "message": "命名 tuple 里的名称重样啦，两个一模一样的名字，人家喊谁好？",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "365"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "typedDictEntryUnique",
+      "sourceIndex": 100,
+      "sourceMessage": "参数名重样啦，两个一模一样的名字，人家喊谁好？",
+      "message": "字典里的名称重样啦，两个一模一样的名字，人家喊谁好？",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "601"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "typedDictEntryName",
+      "sourceIndex": 1038,
+      "sourceMessage": "笨蛋！还要人家告诉你这里要写字符串文本吗？",
+      "message": "笨蛋！还要人家告诉你字典条目的名字要写字符串字面量吗？",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "600"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "classVarTooManyArgs",
+      "sourceIndex": 2218,
+      "sourceMessage": "此强制转换应只有一个操作数表达式，人家给你三秒钟改好啦。别、别误会了，人家才不是特意帮你检查的…",
+      "message": "ClassVar 后应只有一个类型参数，人家给你三秒钟改好啦。别、别误会了，人家才不是特意帮你检查的…",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "155"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "finalTooManyArgs",
+      "sourceIndex": 2218,
+      "sourceMessage": "此强制转换应只有一个操作数表达式，人家给你三秒钟改好啦。别、别误会了，人家才不是特意帮你检查的…",
+      "message": "Final 后应只有一个类型参数，人家给你三秒钟改好啦。别、别误会了，人家才不是特意帮你检查的…",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "268"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "readOnlyArgCount",
+      "sourceIndex": 2218,
+      "sourceMessage": "此强制转换应只有一个操作数表达式，人家给你三秒钟改好啦。别、别误会了，人家才不是特意帮你检查的…",
+      "message": "ReadOnly 后应只有一个类型参数，人家给你三秒钟改好啦。别、别误会了，人家才不是特意帮你检查的…",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "473"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "notRequiredArgCount",
+      "sourceIndex": 2218,
+      "sourceMessage": "此强制转换应只有一个操作数表达式，人家给你三秒钟改好啦。别、别误会了，人家才不是特意帮你检查的…",
+      "message": "NotRequired 后应只有一个类型参数，人家给你三秒钟改好啦。别、别误会了，人家才不是特意帮你检查的…",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "393"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "requiredArgCount",
+      "sourceIndex": 2218,
+      "sourceMessage": "此强制转换应只有一个操作数表达式，人家给你三秒钟改好啦。别、别误会了，人家才不是特意帮你检查的…",
+      "message": "Required 后应只有一个类型参数，人家给你三秒钟改好啦。别、别误会了，人家才不是特意帮你检查的…",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "476"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "unpackArgCount",
+      "sourceIndex": 2218,
+      "sourceMessage": "此强制转换应只有一个操作数表达式，人家给你三秒钟改好啦。别、别误会了，人家才不是特意帮你检查的…",
+      "message": "Unpack 后应只有一个类型参数，人家给你三秒钟改好啦。别、别误会了，人家才不是特意帮你检查的…",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "632"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "typeGuardArgCount",
+      "sourceIndex": 2218,
+      "sourceMessage": "此强制转换应只有一个操作数表达式，人家给你三秒钟改好啦。别、别误会了，人家才不是特意帮你检查的…",
+      "message": "TypeGuard 或 TypeIs 后应只有一个类型参数，人家给你三秒钟改好啦。别、别误会了，人家才不是特意帮你检查的…",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "549"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "newTypeParamCount",
+      "sourceIndex": 1817,
+      "sourceMessage": "“main”的参数数目不合规矩，应该是零个或两个参数，人家说一不二哦",
+      "message": "NewType 的参数数目不合规矩，应该是两个位置参数，人家说一不二哦",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "374"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "sentinelParamCount",
+      "sourceIndex": 1817,
+      "sourceMessage": "“main”的参数数目不合规矩，应该是零个或两个参数，人家说一不二哦",
+      "message": "Sentinel 的参数数目不合规矩，应该是一个位置参数，人家说一不二哦",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "494"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "callableExtraArgs",
+      "sourceIndex": 1817,
+      "sourceMessage": "“main”的参数数目不合规矩，应该是零个或两个参数，人家说一不二哦",
+      "message": "Callable 的类型参数数目不合规矩，应该是两个，人家说一不二哦",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "136"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "assertAlwaysTrue",
+      "sourceIndex": 1573,
+      "sourceMessage": "欸…情况是这样：数组的条件声明始终为 true。不服气的话，把这行代码念三遍再说…",
+      "message": "欸…情况是这样：断言表达式的计算结果始终为 True。不服气的话，把这行代码念三遍再说…",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "114"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "comparisonAlwaysTrue",
+      "sourceIndex": 1573,
+      "sourceMessage": "欸…情况是这样：数组的条件声明始终为 true。不服气的话，把这行代码念三遍再说…",
+      "message": "欸…情况是这样：“{leftType}”和“{rightType}”没有重叠，条件的计算结果始终为 True。不服气的话，把这行代码念三遍再说…",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "160"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "comparisonAlwaysFalse",
+      "sourceIndex": 3243,
+      "sourceMessage": "情况是这样：原子约束的计算结果为 false。这种程度就慌了？杂鱼！",
+      "message": "欸…情况是这样：“{leftType}”和“{rightType}”没有重叠，条件的计算结果始终为 False。不服气的话，把这行代码念三遍再说…",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "159"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "containmentAlwaysTrue",
+      "sourceIndex": 1573,
+      "sourceMessage": "欸…情况是这样：数组的条件声明始终为 true。不服气的话，把这行代码念三遍再说…",
+      "message": "欸…情况是这样：“{leftType}”和“{rightType}”没有重叠，表达式的计算结果始终为 True。不服气的话，把这行代码念三遍再说…",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "169"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "containmentAlwaysFalse",
+      "sourceIndex": 3243,
+      "sourceMessage": "情况是这样：原子约束的计算结果为 false。这种程度就慌了？杂鱼！",
+      "message": "欸…情况是这样：“{leftType}”和“{rightType}”没有重叠，表达式的计算结果始终为 False。不服气的话，把这行代码念三遍再说…",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "168"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "functionInConditionalExpression",
+      "sourceIndex": 1573,
+      "sourceMessage": "欸…情况是这样：数组的条件声明始终为 true。不服气的话，把这行代码念三遍再说…",
+      "message": "欸…情况是这样：条件表达式引用了函数，计算结果始终为 True。不服气的话，把这行代码念三遍再说…",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "283"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "coroutineInConditionalExpression",
+      "sourceIndex": 1573,
+      "sourceMessage": "欸…情况是这样：数组的条件声明始终为 true。不服气的话，把这行代码念三遍再说…",
+      "message": "欸…情况是这样：条件表达式引用了协程，计算结果始终为 True。不服气的话，把这行代码念三遍再说…",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "171"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "codeTooComplexToAnalyze",
+      "sourceIndex": 143,
+      "sourceMessage": "程序大得过分或实在太复杂，没办法编译，下次先问过人家呐",
+      "message": "代码实在太复杂，没办法分析，拆成小函数或减少条件分支，下次先问过人家呐",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "095"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "maxParseDepthExceeded",
+      "sourceIndex": 143,
+      "sourceMessage": "程序大得过分或实在太复杂，没办法编译，下次先问过人家呐",
+      "message": "表达式嵌套太深太复杂，超过最大分析深度啦，人家没办法分析了，拆成小一点的子表达式再来见人家呐",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "339"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "deprecatedClass",
+      "sourceIndex": 1215,
+      "sourceMessage": "对了，「%n 已声明为弃用」，人家看到了啦。人家才不稀罕帮你，只是看不下去而已",
+      "message": "对了，「类“{name}” 已声明为弃用」，人家看到了啦。人家才不稀罕帮你，只是看不下去而已",
+      "mode": "占位符替换",
+      "note": "",
+      "reviewNumber": "194"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "deprecatedConstructor",
+      "sourceIndex": 1215,
+      "sourceMessage": "对了，「%n 已声明为弃用」，人家看到了啦。人家才不稀罕帮你，只是看不下去而已",
+      "message": "对了，「类“{name}”的构造函数 已声明为弃用」，人家看到了啦。人家才不稀罕帮你，只是看不下去而已",
+      "mode": "占位符替换",
+      "note": "",
+      "reviewNumber": "195"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "deprecatedFunction",
+      "sourceIndex": 1215,
+      "sourceMessage": "对了，「%n 已声明为弃用」，人家看到了啦。人家才不稀罕帮你，只是看不下去而已",
+      "message": "对了，「函数“{name}” 已声明为弃用」，人家看到了啦。人家才不稀罕帮你，只是看不下去而已",
+      "mode": "占位符替换",
+      "note": "",
+      "reviewNumber": "199"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "deprecatedMethod",
+      "sourceIndex": 1215,
+      "sourceMessage": "对了，「%n 已声明为弃用」，人家看到了啦。人家才不稀罕帮你，只是看不下去而已",
+      "message": "对了，「类“{className}”中的方法“{name}” 已声明为弃用」，人家看到了啦。人家才不稀罕帮你，只是看不下去而已",
+      "mode": "占位符替换",
+      "note": "",
+      "reviewNumber": "200"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "deprecatedDescriptorDeleter",
+      "sourceIndex": 1215,
+      "sourceMessage": "对了，「%n 已声明为弃用」，人家看到了啦。人家才不稀罕帮你，只是看不下去而已",
+      "message": "对了，「描述符“{name}”的 __delete__ 方法 已声明为弃用」，人家看到了啦。人家才不稀罕帮你，只是看不下去而已",
+      "mode": "占位符替换",
+      "note": "",
+      "reviewNumber": "196"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "deprecatedDescriptorGetter",
+      "sourceIndex": 1215,
+      "sourceMessage": "对了，「%n 已声明为弃用」，人家看到了啦。人家才不稀罕帮你，只是看不下去而已",
+      "message": "对了，「描述符“{name}”的 __get__ 方法 已声明为弃用」，人家看到了啦。人家才不稀罕帮你，只是看不下去而已",
+      "mode": "占位符替换",
+      "note": "",
+      "reviewNumber": "197"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "deprecatedDescriptorSetter",
+      "sourceIndex": 1215,
+      "sourceMessage": "对了，「%n 已声明为弃用」，人家看到了啦。人家才不稀罕帮你，只是看不下去而已",
+      "message": "对了，「描述符“{name}”的 __set__ 方法 已声明为弃用」，人家看到了啦。人家才不稀罕帮你，只是看不下去而已",
+      "mode": "占位符替换",
+      "note": "",
+      "reviewNumber": "198"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "deprecatedPropertyDeleter",
+      "sourceIndex": 1215,
+      "sourceMessage": "对了，「%n 已声明为弃用」，人家看到了啦。人家才不稀罕帮你，只是看不下去而已",
+      "message": "对了，「property“{name}”的 deleter 已声明为弃用」，人家看到了啦。人家才不稀罕帮你，只是看不下去而已",
+      "mode": "占位符替换",
+      "note": "",
+      "reviewNumber": "201"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "deprecatedPropertyGetter",
+      "sourceIndex": 1215,
+      "sourceMessage": "对了，「%n 已声明为弃用」，人家看到了啦。人家才不稀罕帮你，只是看不下去而已",
+      "message": "对了，「property“{name}”的 getter 已声明为弃用」，人家看到了啦。人家才不稀罕帮你，只是看不下去而已",
+      "mode": "占位符替换",
+      "note": "",
+      "reviewNumber": "202"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "deprecatedPropertySetter",
+      "sourceIndex": 1215,
+      "sourceMessage": "对了，「%n 已声明为弃用」，人家看到了啦。人家才不稀罕帮你，只是看不下去而已",
+      "message": "对了，「property“{name}”的 setter 已声明为弃用」，人家看到了啦。人家才不稀罕帮你，只是看不下去而已",
+      "mode": "占位符替换",
+      "note": "",
+      "reviewNumber": "203"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "deprecatedType",
+      "sourceIndex": 2221,
+      "sourceMessage": "又怎么了啦，访问说明符 %s1 已弃用 -- 改用 %s2 哦",
+      "message": "又怎么了啦，此类型自 Python {version} 起已弃用 -- 改用“{replacement}”哦",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "204"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "typeCommentDeprecated",
+      "sourceIndex": 2221,
+      "sourceMessage": "又怎么了啦，访问说明符 %s1 已弃用 -- 改用 %s2 哦",
+      "message": "又怎么了啦，type 注释已弃用 -- 改用类型批注哦",
+      "mode": "语义适配",
+      "note": "",
+      "reviewNumber": "546"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "awaitIllegal",
+      "sourceIndex": 2730,
+      "sourceMessage": "欸？推导出的返回类型要 C++14 才玩得起啦，先把标准切过去再来见人家咯",
+      "message": "欸？使用 “await” 要 Python 3.5 或更高版本才玩得起啦，先把版本切过去再来见人家咯",
+      "mode": "句式套用",
+      "note": "C++ 标准版本门槛句式改为 Python 版本门槛，原版本号和额外建议不变。",
+      "reviewNumber": "122"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "binaryOperationNotAllowed",
+      "sourceIndex": 655,
+      "sourceMessage": "杂鱼~你的声明中不允许使用 %sq 修饰符",
+      "message": "杂鱼~类型表达式里不允许使用二元运算符的啦",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "131"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "classTypeParametersIllegal",
+      "sourceIndex": 2730,
+      "sourceMessage": "欸？推导出的返回类型要 C++14 才玩得起啦，先把标准切过去再来见人家咯",
+      "message": "欸？类类型参数语法要 Python 3.12 或更高版本才玩得起啦，先把版本切过去再来见人家咯",
+      "mode": "句式套用",
+      "note": "C++ 标准版本门槛句式改为 Python 版本门槛，原版本号和额外建议不变。",
+      "reviewNumber": "151"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "classVarNotAllowed",
+      "sourceIndex": 655,
+      "sourceMessage": "杂鱼~你的声明中不允许使用 %sq 修饰符",
+      "message": "杂鱼~这里不允许使用“ClassVar”的啦",
+      "mode": "句式套用",
+      "note": "只套用禁止使用某语法的句式，限制的 Python 上下文和名称不变。",
+      "reviewNumber": "153"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "concatenateContext",
+      "sourceIndex": 655,
+      "sourceMessage": "杂鱼~你的声明中不允许使用 %sq 修饰符",
+      "message": "杂鱼~这里不允许使用“Concatenate”的啦",
+      "mode": "句式套用",
+      "note": "只套用禁止使用某语法的句式，限制的 Python 上下文和名称不变。",
+      "reviewNumber": "163"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "dataProtocolInSubclassCheck",
+      "sourceIndex": 655,
+      "sourceMessage": "杂鱼~你的声明中不允许使用 %sq 修饰符",
+      "message": "杂鱼~issubclass 调用里不允许使用数据协议(包括非方法属性)的啦",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "188"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "dictExpandIllegalInComprehension",
+      "sourceIndex": 655,
+      "sourceMessage": "杂鱼~你的声明中不允许使用 %sq 修饰符",
+      "message": "杂鱼~推导式里不允许使用字典扩展的啦",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "205"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "dictInAnnotation",
+      "sourceIndex": 655,
+      "sourceMessage": "杂鱼~你的声明中不允许使用 %sq 修饰符",
+      "message": "杂鱼~类型表达式里不允许使用字典表达式的啦",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "206"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "exceptionGroupIncompatible",
+      "sourceIndex": 2730,
+      "sourceMessage": "欸？推导出的返回类型要 C++14 才玩得起啦，先把标准切过去再来见人家咯",
+      "message": "欸？异常组语法 (\"except*\") 要 Python 3.11 或更高版本才玩得起啦，先把版本切过去再来见人家咯",
+      "mode": "句式套用",
+      "note": "C++ 标准版本门槛句式改为 Python 版本门槛，原版本号和额外建议不变。",
+      "reviewNumber": "235"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "formatStringDebuggingIllegal",
+      "sourceIndex": 2730,
+      "sourceMessage": "欸？推导出的返回类型要 C++14 才玩得起啦，先把标准切过去再来见人家咯",
+      "message": "欸？F 字符串调试说明符“=”要 Python 3.8 或更高版本才玩得起啦，先把版本切过去再来见人家咯",
+      "mode": "句式套用",
+      "note": "C++ 标准版本门槛句式改为 Python 版本门槛，原版本号和额外建议不变。",
+      "reviewNumber": "273"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "formatStringEscape",
+      "sourceIndex": 655,
+      "sourceMessage": "杂鱼~你的声明中不允许使用 %sq 修饰符",
+      "message": "杂鱼~Python 3.12 之前 f 字符串的表达式部分里不允许使用转义序列(反斜杠)的啦",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "274"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "formatStringIllegal",
+      "sourceIndex": 2730,
+      "sourceMessage": "欸？推导出的返回类型要 C++14 才玩得起啦，先把标准切过去再来见人家咯",
+      "message": "欸？格式化字符串文本(f 字符串)要 Python 3.6 或更高版本才玩得起啦，先把版本切过去再来见人家咯",
+      "mode": "句式套用",
+      "note": "C++ 标准版本门槛句式改为 Python 版本门槛，原版本号和额外建议不变。",
+      "reviewNumber": "276"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "formatStringInPattern",
+      "sourceIndex": 655,
+      "sourceMessage": "杂鱼~你的声明中不允许使用 %sq 修饰符",
+      "message": "杂鱼~模式里不允许使用格式字符串的啦",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "277"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "functionTypeParametersIllegal",
+      "sourceIndex": 2730,
+      "sourceMessage": "欸？推导出的返回类型要 C++14 才玩得起啦，先把标准切过去再来见人家咯",
+      "message": "欸？函数类型参数语法要 Python 3.12 或更高版本才玩得起啦，先把版本切过去再来见人家咯",
+      "mode": "句式套用",
+      "note": "C++ 标准版本门槛句式改为 Python 版本门槛，原版本号和额外建议不变。",
+      "reviewNumber": "284"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "initVarNotAllowed",
+      "sourceIndex": 655,
+      "sourceMessage": "杂鱼~你的声明中不允许使用 %sq 修饰符",
+      "message": "杂鱼~这里不允许使用“InitVar”的啦",
+      "mode": "句式套用",
+      "note": "只套用禁止使用某语法的句式，限制的 Python 上下文和名称不变。",
+      "reviewNumber": "308"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "lazyImportIllegal",
+      "sourceIndex": 2730,
+      "sourceMessage": "欸？推导出的返回类型要 C++14 才玩得起啦，先把标准切过去再来见人家咯",
+      "message": "欸？延迟导入语句要 Python 3.15 或更高版本才玩得起啦，先把版本切过去再来见人家咯",
+      "mode": "句式套用",
+      "note": "C++ 标准版本门槛句式改为 Python 版本门槛，原版本号和额外建议不变。",
+      "reviewNumber": "328"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "listInAnnotation",
+      "sourceIndex": 655,
+      "sourceMessage": "杂鱼~你的声明中不允许使用 %sq 修饰符",
+      "message": "杂鱼~类型表达式里不允许使用 List 表达式的啦",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "331"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "matchIncompatible",
+      "sourceIndex": 2730,
+      "sourceMessage": "欸？推导出的返回类型要 C++14 才玩得起啦，先把标准切过去再来见人家咯",
+      "message": "欸？Match 语句要 Python 3.10 或更高版本才玩得起啦，先把版本切过去再来见人家咯",
+      "mode": "句式套用",
+      "note": "C++ 标准版本门槛句式改为 Python 版本门槛，原版本号和额外建议不变。",
+      "reviewNumber": "337"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "notRequiredNotInTypedDict",
+      "sourceIndex": 655,
+      "sourceMessage": "杂鱼~你的声明中不允许使用 %sq 修饰符",
+      "message": "杂鱼~这里不允许使用“NotRequired”的啦",
+      "mode": "句式套用",
+      "note": "只套用禁止使用某语法的句式，限制的 Python 上下文和名称不变。",
+      "reviewNumber": "394"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "paramSpecContext",
+      "sourceIndex": 655,
+      "sourceMessage": "杂鱼~你的声明中不允许使用 %sq 修饰符",
+      "message": "杂鱼~这里不允许使用“ ParamSpec”的啦",
+      "mode": "句式套用",
+      "note": "只套用禁止使用某语法的句式，限制的 Python 上下文和名称不变。",
+      "reviewNumber": "431"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "positionOnlyIncompatible",
+      "sourceIndex": 2730,
+      "sourceMessage": "欸？推导出的返回类型要 C++14 才玩得起啦，先把标准切过去再来见人家咯",
+      "message": "欸？仅位置参数分隔符要 Python 3.8 或更高版本才玩得起啦，先把版本切过去再来见人家咯",
+      "mode": "句式套用",
+      "note": "C++ 标准版本门槛句式改为 Python 版本门槛，原版本号和额外建议不变。",
+      "reviewNumber": "450"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "protocolIllegal",
+      "sourceIndex": 2730,
+      "sourceMessage": "欸？推导出的返回类型要 C++14 才玩得起啦，先把标准切过去再来见人家咯",
+      "message": "欸？使用 \"Protocol\" 要 Python 3.7 或更高版本才玩得起啦，先把版本切过去再来见人家咯",
+      "mode": "句式套用",
+      "note": "C++ 标准版本门槛句式改为 Python 版本门槛，原版本号和额外建议不变。",
+      "reviewNumber": "459"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "readOnlyNotInTypedDict",
+      "sourceIndex": 655,
+      "sourceMessage": "杂鱼~你的声明中不允许使用 %sq 修饰符",
+      "message": "杂鱼~这里不允许使用“ReadOnly”的啦",
+      "mode": "句式套用",
+      "note": "只套用禁止使用某语法的句式，限制的 Python 上下文和名称不变。",
+      "reviewNumber": "474"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "requiredNotInTypedDict",
+      "sourceIndex": 655,
+      "sourceMessage": "杂鱼~你的声明中不允许使用 %sq 修饰符",
+      "message": "杂鱼~这里不允许使用“Required”的啦",
+      "mode": "句式套用",
+      "note": "只套用禁止使用某语法的句式，限制的 Python 上下文和名称不变。",
+      "reviewNumber": "477"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "templateStringIllegal",
+      "sourceIndex": 2730,
+      "sourceMessage": "欸？推导出的返回类型要 C++14 才玩得起啦，先把标准切过去再来见人家咯",
+      "message": "欸？模板字符串字面量(t-strings)要 Python 3.14 或更高版本才玩得起啦，先把版本切过去再来见人家咯",
+      "mode": "句式套用",
+      "note": "C++ 标准版本门槛句式改为 Python 版本门槛，原版本号和额外建议不变。",
+      "reviewNumber": "513"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "ternaryNotAllowed",
+      "sourceIndex": 655,
+      "sourceMessage": "杂鱼~你的声明中不允许使用 %sq 修饰符",
+      "message": "杂鱼~类型表达式里不允许使用三元表达式的啦",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "515"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "tupleInAnnotation",
+      "sourceIndex": 655,
+      "sourceMessage": "杂鱼~你的声明中不允许使用 %sq 修饰符",
+      "message": "杂鱼~类型表达式里不允许使用 tuple 表达式的啦",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "519"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "typeAliasStatementIllegal",
+      "sourceIndex": 2730,
+      "sourceMessage": "欸？推导出的返回类型要 C++14 才玩得起啦，先把标准切过去再来见人家咯",
+      "message": "欸？类型别名语句要 Python 3.12 或更高版本才玩得起啦，先把版本切过去再来见人家咯",
+      "mode": "句式套用",
+      "note": "C++ 标准版本门槛句式改为 Python 版本门槛，原版本号和额外建议不变。",
+      "reviewNumber": "525"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "typeAnnotationCall",
+      "sourceIndex": 655,
+      "sourceMessage": "杂鱼~你的声明中不允许使用 %sq 修饰符",
+      "message": "杂鱼~类型表达式里不允许使用调用表达式的啦",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "532"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "typeAnnotationVariable",
+      "sourceIndex": 655,
+      "sourceMessage": "杂鱼~你的声明中不允许使用 %sq 修饰符",
+      "message": "杂鱼~类型表达式里不允许使用变量的啦",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "533"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "typeVarDefaultIllegal",
+      "sourceIndex": 2730,
+      "sourceMessage": "欸？推导出的返回类型要 C++14 才玩得起啦，先把标准切过去再来见人家咯",
+      "message": "欸？类型变量默认类型要 Python 3.13 或更高版本才玩得起啦，先把版本切过去再来见人家咯",
+      "mode": "句式套用",
+      "note": "C++ 标准版本门槛句式改为 Python 版本门槛，原版本号和额外建议不变。",
+      "reviewNumber": "569"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "typeVarTupleContext",
+      "sourceIndex": 655,
+      "sourceMessage": "杂鱼~你的声明中不允许使用 %sq 修饰符",
+      "message": "杂鱼~这里不允许使用“ TypeVarTuple”的啦",
+      "mode": "句式套用",
+      "note": "只套用禁止使用某语法的句式，限制的 Python 上下文和名称不变。",
+      "reviewNumber": "579"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "typedDictInClassPattern",
+      "sourceIndex": 655,
+      "sourceMessage": "杂鱼~你的声明中不允许使用 %sq 修饰符",
+      "message": "杂鱼~类模式里不允许使用 TypedDict 类的啦",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "608"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "unaryOperationNotAllowed",
+      "sourceIndex": 655,
+      "sourceMessage": "杂鱼~你的声明中不允许使用 %sq 修饰符",
+      "message": "杂鱼~类型表达式里不允许使用一元运算符的啦",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "615"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "unionSyntaxIllegal",
+      "sourceIndex": 2730,
+      "sourceMessage": "欸？推导出的返回类型要 C++14 才玩得起啦，先把标准切过去再来见人家咯",
+      "message": "欸？联合的替代语法要 Python 3.10 或更高版本才玩得起啦，先把版本切过去再来见人家咯",
+      "mode": "句式套用",
+      "note": "C++ 标准版本门槛句式改为 Python 版本门槛，原版本号和额外建议不变。",
+      "reviewNumber": "622"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "unpackIllegalInComprehension",
+      "sourceIndex": 655,
+      "sourceMessage": "杂鱼~你的声明中不允许使用 %sq 修饰符",
+      "message": "杂鱼~在推导式里不允许使用解包操作的啦",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "635"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "unpackInAnnotation",
+      "sourceIndex": 655,
+      "sourceMessage": "杂鱼~你的声明中不允许使用 %sq 修饰符",
+      "message": "杂鱼~类型表达式里不允许使用解包运算符的啦",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "636"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "unpackedSubscriptIllegal",
+      "sourceIndex": 2730,
+      "sourceMessage": "欸？推导出的返回类型要 C++14 才玩得起啦，先把标准切过去再来见人家咯",
+      "message": "欸？下标中的解包运算符要 Python 3.11 或更高版本才玩得起啦，先把版本切过去再来见人家咯",
+      "mode": "句式套用",
+      "note": "C++ 标准版本门槛句式改为 Python 版本门槛，原版本号和额外建议不变。",
+      "reviewNumber": "646"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "varAnnotationIllegal",
+      "sourceIndex": 2730,
+      "sourceMessage": "欸？推导出的返回类型要 C++14 才玩得起啦，先把标准切过去再来见人家咯",
+      "message": "欸？变量的 Type 批注要 Python 3.6 或更高版本才玩得起啦，先把版本切过去再来见人家咯; 请使用 type 注释以与以前的版本兼容",
+      "mode": "句式套用",
+      "note": "C++ 标准版本门槛句式改为 Python 版本门槛，原版本号和额外建议不变。",
+      "reviewNumber": "652"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "walrusIllegal",
+      "sourceIndex": 2730,
+      "sourceMessage": "欸？推导出的返回类型要 C++14 才玩得起啦，先把标准切过去再来见人家咯",
+      "message": "欸？运算符 \":=\" 要 Python 3.8 或更高版本才玩得起啦，先把版本切过去再来见人家咯",
+      "mode": "句式套用",
+      "note": "C++ 标准版本门槛句式改为 Python 版本门槛，原版本号和额外建议不变。",
+      "reviewNumber": "657"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "walrusNotAllowed",
+      "sourceIndex": 655,
+      "sourceMessage": "杂鱼~你的声明中不允许使用 %sq 修饰符",
+      "message": "杂鱼~这里不允许使用“运算符 \":=\"，且不带括号”的啦",
+      "mode": "句式套用",
+      "note": "只套用禁止使用某语法的句式，限制的 Python 上下文和名称不变。",
+      "reviewNumber": "658"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "walrusNotAllowedInComprehension",
+      "sourceIndex": 655,
+      "sourceMessage": "杂鱼~你的声明中不允许使用 %sq 修饰符",
+      "message": "杂鱼~在推导可迭代表达式里不允许使用操作符 \":=\"的啦",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "659"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "wildcardInFunction",
+      "sourceIndex": 655,
+      "sourceMessage": "杂鱼~你的声明中不允许使用 %sq 修饰符",
+      "message": "杂鱼~类或函数里不允许使用通配符 import的啦",
+      "mode": "句式套用",
+      "note": "",
+      "reviewNumber": "660"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "yieldFromIllegal",
+      "sourceIndex": 2730,
+      "sourceMessage": "欸？推导出的返回类型要 C++14 才玩得起啦，先把标准切过去再来见人家咯",
+      "message": "欸？使用“yield from”要 Python 3.3 或更高版本才玩得起啦，先把版本切过去再来见人家咯",
+      "mode": "句式套用",
+      "note": "C++ 标准版本门槛句式改为 Python 版本门槛，原版本号和额外建议不变。",
+      "reviewNumber": "664"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "zeroLengthTupleNotAllowed",
+      "sourceIndex": 655,
+      "sourceMessage": "杂鱼~你的声明中不允许使用 %sq 修饰符",
+      "message": "杂鱼~这里不允许使用“零长度 tuple”的啦",
+      "mode": "句式套用",
+      "note": "只套用禁止使用某语法的句式，限制的 Python 上下文和名称不变。",
+      "reviewNumber": "667"
+    },
+    {
+      "section": "Diagnostic",
+      "key": "yieldWithinComprehension",
+      "sourceIndex": 655,
+      "sourceMessage": "杂鱼~你的声明中不允许使用 %sq 修饰符",
+      "message": "杂鱼~推导式里不允许使用 yield 的啦",
+      "mode": "句式套用",
+      "note": "修正上游中文漏“不”字的问题，按英文 not allowed 保持禁止含义。",
+      "reviewNumber": "666"
+    }
+  ]
+}
