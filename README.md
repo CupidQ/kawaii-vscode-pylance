@@ -23,7 +23,7 @@
 
 ## Quick Start
 
-在项目目录打开终端：
+下载并解压zip，在根目录执行：
 
 ```powershell
 py -3 .\kawaii_pylance.py apply
