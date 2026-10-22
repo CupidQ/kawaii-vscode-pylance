@@ -29,7 +29,7 @@
 py -3 .\kawaii_pylance.py apply
 ```
 
-配合 Error Lens 使用体验更佳。
+配合 [Error Lens](https://github.com/usernamehw/vscode-error-lens) 使用体验更佳。
 
 ## 状态与还原
 
